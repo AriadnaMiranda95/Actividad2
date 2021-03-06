@@ -12,7 +12,7 @@ package com.mycompany.actividad2;
 public class Calculadora {
     private int operador1;
     private int operador2;
-    private int operacion;
+    private int operador;
 
     /**
      * @return the operador1
@@ -46,13 +46,13 @@ public class Calculadora {
      * @return the operacion
      */
     public int getOperacion() {
-        return operacion;
+        return operador;
     }
 
     /**
      * @param operacion the operacion to set
      */
     public void setOperacion(int operacion) {
-        this.operacion = operacion;
+        this.operador = operacion;
     }
 }
